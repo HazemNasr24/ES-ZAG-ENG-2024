@@ -38,8 +38,11 @@ int main()
       original_decimal = decimal ;
       printf("binary of %d is ",original_decimal);
       for(int i =15 ;i>=0 ;i--){
-        binary = (decimal >> i) & 1 ;
+        binary = (decimal >> i);
+        if(binary > 0){
+        binary =  binary & 1 ;
         printf("%d",binary);
+        }
       }
 
       printf("\n===========================================================================\n");
