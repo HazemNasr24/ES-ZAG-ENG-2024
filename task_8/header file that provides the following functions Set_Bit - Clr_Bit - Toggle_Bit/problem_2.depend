@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1707328685 source:e:\project_c\problem_2\main.c
+	"main.h"
+
+1707328525 e:\project_c\problem_2\main.h
+
+1707329493 source:e:\project_c\task_8\header file that provides the following functions set_bit - clr_bit - toggle_bit\func.c
+	"main.h"
+
+1707329493 source:e:\project_c\task_8\header file that provides the following functions set_bit - clr_bit - toggle_bit\main.c
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+
